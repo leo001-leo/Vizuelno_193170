@@ -62,7 +62,7 @@ namespace MusicPlayerApp
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             btnPustiPesna.Enabled = true;
-            //btnRemoveSong.Enabled = true;
+            btnRemoveSong.Enabled = true;
         }
 
         private void btnPustiPesna_Click(object sender, EventArgs e)
