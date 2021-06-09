@@ -67,7 +67,10 @@ namespace MusicPlayerApp
 
         private void btnPustiPesna_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayerMusic.URL = paths[listBox1.SelectedIndex];
+            if (listBox1.SelectedIndex != -1)
+            {
+                axWindowsMediaPlayerMusic.URL = paths[listBox1.SelectedIndex];
+            }
         }
 
         private void btnRemoveSong_Click(object sender, EventArgs e)
