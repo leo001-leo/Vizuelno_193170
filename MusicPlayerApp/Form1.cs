@@ -61,8 +61,16 @@ namespace MusicPlayerApp
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnPustiPesna.Enabled = true;
-            btnRemoveSong.Enabled = true;
+            if(listBox1.SelectedIndex!=-1)
+            {
+                btnPustiPesna.Enabled = true;
+                btnRemoveSong.Enabled = true;
+            }
+            else
+            {
+                btnPustiPesna.Enabled = false;
+                btnRemoveSong.Enabled = false;
+            }
         }
 
         private void btnPustiPesna_Click(object sender, EventArgs e)
@@ -75,12 +83,16 @@ namespace MusicPlayerApp
 
         private void btnRemoveSong_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedIndex != -1)
+            if (MessageBox.Show("Дали сакате да ја избришете песната?", "Бришење песна", MessageBoxButtons.YesNo)==DialogResult.Yes)
             {
-                listBox1.Items.RemoveAt(listBox1.SelectedIndex);
-                //proverka();
+                if (listBox1.SelectedIndex != -1)
+                {
+                    listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+                    //proverka();
+                }
             }
         }
+
     }
 
 }
