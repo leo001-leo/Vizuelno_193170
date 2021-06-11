@@ -62,7 +62,9 @@ Vizuelno_193170_193179
 ![ZatvoranjeAplikacija](https://user-images.githubusercontent.com/80169088/121671969-7ff85200-caaf-11eb-86ce-697f8defbe44.png)
 
 
-
+# Изработиле:
+Леонид Ангеловски 193170
+Александар Андоновски 193179
 
 
 
