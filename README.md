@@ -46,6 +46,23 @@ Music Player App
 (Кога ќе потврдиме бришење песна)
 ![KlikBrisenjePesna2](https://user-images.githubusercontent.com/80169088/121669656-d44e0280-caac-11eb-8187-5a350e261d59.png)
 
+Со кликање на копчето "Pause" се паузира песната и при повторно кликање, песната продолжува.
+![KlikPause](https://user-images.githubusercontent.com/80169088/121670631-f2683280-caad-11eb-8719-bb5244668d26.png)
+
+(Опција за премотување на песна)
+![Premotuvanje](https://user-images.githubusercontent.com/80169088/121671283-a4076380-caae-11eb-89a9-2e99c43b59e7.png)
+
+(Опција за подесување на звук)
+![PodesuvanjeZvuk](https://user-images.githubusercontent.com/80169088/121671373-c26d5f00-caae-11eb-932c-f154652056fd.png)
+
+(При клик на копчето "Stop" се стопира песната и доколку сакаме да ја пуштиме пак, почнува од почеток)
+![Stop](https://user-images.githubusercontent.com/80169088/121671666-22fc9c00-caaf-11eb-8941-1560f1971602.png)
+
+
+
+
+
+
 
 
 
