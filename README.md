@@ -58,6 +58,8 @@ Music Player App
 (При клик на копчето "Stop" се стопира песната и доколку сакаме да ја пуштиме пак, почнува од почеток)
 ![Stop](https://user-images.githubusercontent.com/80169088/121671666-22fc9c00-caaf-11eb-8941-1560f1971602.png)
 
+При клик горе десно на црвеното копче во форма на "X", се затвора целосно апликацијата.
+![ZatvoranjeAplikacija](https://user-images.githubusercontent.com/80169088/121671969-7ff85200-caaf-11eb-86ce-697f8defbe44.png)
 
 
 
